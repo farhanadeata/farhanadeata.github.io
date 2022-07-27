@@ -7,97 +7,101 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
      <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-     <link rel="stylesheet" href="style.css">
-     <title>Farhanadeata</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+     <!-- my css -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat+Alternates:wght@200;300&family=Ubuntu:wght@300;400;700&display=swap"
+          rel="stylesheet">
+
+
+     <title>PORTOFOLIO || Farhanadeata</title>
+
 </head>
 
-<body id="home">
-     <!--navbar-->
-     <nav class="navbar navbar-expand-lg navbar-dark background shadow-sm fixed-top">
-          <div class="container">
-               <img src="img/LOGO TERBARU REV-min.PNG" alt="" width="50" height="45" data-aos="flip-left">
-               <a class="navbar-brand" href="#">Farhanadeata</a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                         <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                         </li>
-                         <li class="nav-item">
-                              <a class="nav-link" href="#About">About</a>
-                         </li>
-                         <li class="nav-item">
-                              <a class="nav-link" href="#project">My Project</a>
-                         </li>
-                         <li class="nav-item">
-                              <a class="nav-link" href="https://farhanadeata.blogspot.com/">Tutorial</a>
-                         </li>
-                         <li class="nav-item">
-                              <a class="nav-link" href="#Contactme">Contact Me</a>
-                         </li>
-                         <li class="nav-item">
-                              <div class="dropdown">
-                                   <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                                        id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                        My Social Media
-                                   </a>
-
-                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <li><a class="dropdown-item text-primary"
-                                                  href="https://www.facebook.com/farhan1113/"><i class="bi bi-meta"></i>
-                                                  Facebook</a>
-                                        </li>
-                                        <li><a class="dropdown-item text-primary"
-                                                  href="https://www.instagram.com/Farhanadeata"><i
-                                                       class="bi bi-instagram"></i> instagram</a></li>
-                                        <li><a class="dropdown-item" href="https://github.com/farhanadeata"><i
-                                                       class="bi bi-github"> </i>Github</a>
-                                        <li><a class="dropdown-item text-success" href="https://wa.me/083165642820"><i
-                                                       class="bi bi-whatsapp">
-                                                  </i>whatsapp</a>
-                                        </li>
-                                   </ul>
+<body>
+     <!-- navbar -->
+     <div id="home">
+          <div class="container-fluid position-fixed" id="nav">
+               <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-2  ">
+                         <div class="row justify-content-center">
+                              <div class="col-7">
+                                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                   </button>
+                                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                        <div class="navbar-nav">
+                                             <a class="nav-link me-3" href="#home">HOME</a>
+                                             <a class="nav-link me-3" href="#portofolio">PROJECT</a>
+                                             <a class="nav-link me-3" href="https://farhanadeata.blogspot.com/">BLOG</a>
+                                             <a class="nav-link me-3" href="#Contactme">CONTACT </a>
+                                        </div>
+                                   </div>
                               </div>
-                         </li>
-                    </ul>
+                         </div>
+                    </nav>
                </div>
           </div>
-     </nav>
-     <!-- akhir navbar -->
-     <!-- jumbotron -->
-     <section class="jumbotron text-center">
-          <img src="img/faa.jpg" alt="farhan" width="200" class="rounded-circle border border-3">
-          <div class="text">
-               <h1 class="display-4">Farhan Ade Atalarik</h1>
-               <p class="lead"></p>
-          </div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-               <path fill="#ffffff" fill-opacity="1"
-                    d="M0,64L21.8,69.3C43.6,75,87,85,131,101.3C174.5,117,218,139,262,165.3C305.5,192,349,224,393,229.3C436.4,235,480,213,524,208C567.3,203,611,213,655,192C698.2,171,742,117,785,96C829.1,75,873,85,916,106.7C960,128,1004,160,1047,154.7C1090.9,149,1135,107,1178,96C1221.8,85,1265,107,1309,106.7C1352.7,107,1396,85,1418,74.7L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
-               </path>
-          </svg>
-     </section>
-     <!-- akhir jumbotron -->
+     </div>
 
-     <!-- about -->
-     <section id="About">
-          <div class=" about text1" data-aos="fade-in" data-aos-offset="400" data-aos-duration="3000">
-               <div class="container">
-                    <div class="row text-center">
-                         <div class="col">
-                              <h2>About Me</h2>
+
+     <!-- akhir Navbar -->
+
+     <!-- saya -->
+     <section id="saya">
+          <div class="container">
+               <div class="row post">
+                    <div class="col-lg-5 col-md-6 offset-lg-1 my-auto order-1 text-center text-lg-start">
+                         <h2>Hai</h2>
+                         <H1 class="fw-bold">Saya Farhan Ade Atalarik</H1>
+                         <p>Mahasiswa || Programer || Videografer</p>
+
+                         <div class="social-media text-light">
+                              <a class="text-light" href="https://www.facebook.com/farhan1113/"><i
+                                        class="bi bi-facebook"></i></a>
+
+                              <a class="text-light" href="https://www.instagram.com/Farhanadeata"><i
+                                        class="bi bi-instagram"></i></a>
+                              <a class="text-light" href="https://github.com/farhanadeata"><i
+                                        class="bi bi-github"></i></a>
+                              <a class="text-light" href="https://wa.me/083165642820"><i class="bi bi-whatsapp">
+                                   </i></a>
+                              <br>
+                              <a href="#" class="fw-bold text-decoration-none cv">Download
+                                   <span class="warnaaksen">CV</span></a>
+
                          </div>
                     </div>
-                    <div class="row justify-content-center fs-5 text-center">
-                         <div class="col">
-                              <p>Hai saya Farhan Ade Atalarik saya lahir di Baturaja Pada 27 Agustus 2003, rumah saya
+                    <div class="col- lg-5 col-md-6 order-md-2">
+                         <img src="img/faa.jpg" alt="farhan" width="250"
+                              class="rounded-circle border border-3 float-lg-end mx-auto d-block">
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- akhir saya -->
+
+     <!-- about -->
+     <section id="about">
+          <div class="container-fluid">
+               <div class="container">
+                    <div class="row justify-content-center">
+                         <div class="col-10">
+                              <h1 class="text-center fw-bold">About Me</h1>
+                              <hr>
+                         </div>
+                         <div class="col-10">
+                              <p class="text-center warnaaksen">Dream Big Work Hard Play Hard And Make It Happen</p>
+                              <p class="text-center text-light">Hai saya Farhan Ade Atalarik saya lahir di Baturaja Pada
+                                   27
+                                   Agustus 2003, rumah saya
                                    di Jl.Kol.Wahab Sarobu,Saya Mahasiswa di Universitas Baturaja.Saya memiliki motivasi
                                    yang besar Untuk mendapatkan dan mempelajari Sesuatu yang baru,Saya bertanggung jawab
                                    dan dapat di andalkan dalam hal apapun</p>
@@ -105,87 +109,102 @@
                     </div>
                </div>
           </div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-               <path fill="#0d6efd" fill-opacity="1"
-                    d="M0,192L24,208C48,224,96,256,144,224C192,192,240,96,288,101.3C336,107,384,213,432,224C480,235,528,149,576,138.7C624,128,672,192,720,224C768,256,816,256,864,256C912,256,960,256,1008,213.3C1056,171,1104,85,1152,74.7C1200,64,1248,128,1296,149.3C1344,171,1392,149,1416,138.7L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
-               </path>
-          </svg>
      </section>
      <!-- akhir about -->
 
-     <!-- My Project -->
-     <section id="project">
-          <div class="container">
-               <div class="row text-center mb-3">
-                    <div class="col">
-                         <div class="text">
-                              <h2>My Project</h2>
+     <!-- skill -->
+     <section id="skill">
+          <div class="container-fluid">
+               <div class="container">
+                    <div class="row justify-content-center">
+                         <div class="col-10">
+                              <h1 class="fw-bold text-center">My Skill</h1>
+                              <hr>
+                         </div>
+                         <div class="col-10 text-center mt-3">
+                              <img src="img/word.png" alt="">
+                              <img src="img/exel.png" alt="">
+                              <img src="img/ps.png" alt="">
+                              <img src="img/corel.png" alt="">
+                              <img src="img/html.png" alt="">
+                              <img src="img/css.png" alt="">
+                              <img src="img/py.png" alt="">
+                              <img src="img/Visual_Studio_Code_1.35_icon.svg.png" alt="">
                          </div>
                     </div>
                </div>
+          </div>
+     </section>
+     <!-- akhir skill -->
+
+     <!-- portofolio -->
+     <section id="portofolio">
+          <div class="container">
+               <div class="row justify-content-center">
+                    <div class="col-12">
+                         <h1 class="text-center fw-bold">Galery portofolio</h1>
+                         <hr>
+                    </div>
+               </div>
+               <br>
                <div class="row justify-content-center">
                     <div class="col-md-4 mb-3">
-                         <div class="card" data-aos="flip-up" data-aos-duration="2000">
+                         <div class="card bg-dark text-light" data-aos="flip-up" data-aos-duration="2000">
                               <img src="img/ai.jpg" class="card-img-top" alt="ai">
                               <div class="card-body">
                                    <h5 class="card-title">Kecerdasan buatan</h5>
                                    <p class="card-text">mencoba membuat Kecerdasan buatan menggunakan bahasa
                                         Python.</p>
-                                   <a href="https://github.com/farhanadeata/Ai" class="btn btn-primary">Lihat</a>
+                                   <a href="https://github.com/farhanadeata/Ai" class="btn warnaaksen">Lihat</a>
                               </div>
                          </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                         <div class="card" data-aos="flip-up" data-aos-duration="2000">
+                         <div class="card bg-dark text-light" data-aos="flip-up" data-aos-duration="2000">
                               <img src="img/website.png" class="card-img-top" alt="website admin">
                               <div class="card-body">
                                    <h5 class="card-title">Sistem Admin Mahasiswa</h5>
                                    <p class="card-text"> mencoba Membuat sistem admin data Mahasiswa.</p>
-                                   <a href="https://github.com/farhanadeata/UTSSCRUD" class="btn btn-primary">Lihat</a>
+                                   <a href="https://github.com/farhanadeata/UTSSCRUD" class="btn warnaaksen">Lihat</a>
                               </div>
                          </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                         <div class="card" data-aos="flip-up" data-aos-duration="2000">
+                         <div class="card bg-dark text-light" data-aos="flip-up" data-aos-duration="2000">
                               <img src="img/scribleart.png" class="card-img-top" alt="">
                               <div class="card-body">
                                    <h5 class="card-title">Scrible Art</h5>
                                    <p class="card-text"> mencoba Membuat efek Scrible Art di Android.</p>
-                                   <a href="https://youtu.be/VZU8HkDeuXM" class="btn btn-primary">Lihat</a>
+                                   <a href="https://youtu.be/VZU8HkDeuXM" class="btn warnaaksen">Lihat</a>
                               </div>
                          </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                         <div class="card" data-aos="flip-up" data-aos-duration="2000">
+                         <div class="card bg-dark text-light" data-aos="flip-up" data-aos-duration="2000">
                               <img src="img/proyek.png" class="card-img-top" alt="scribleart">
                               <div class="card-body">
                                    <h5 class="card-title">website data siswa sederhana</h5>
                                    <p class="card-text">mencoba membuat website sederhana menggunakan bootstrap dan di
                                         upload ke hosting</p>
-                                   <a href="https://github.com/farhanadeata/WebCRUD" class="btn btn-primary">Lihat</a>
+                                   <a href="https://github.com/farhanadeata/WebCRUD" class="btn warnaaksen">Lihat</a>
                               </div>
                          </div>
                     </div>
                </div>
           </div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-               <path fill="#808080" fill-opacity="1"
-                    d="M0,96L17.1,101.3C34.3,107,69,117,103,144C137.1,171,171,213,206,197.3C240,181,274,107,309,80C342.9,53,377,75,411,69.3C445.7,64,480,32,514,58.7C548.6,85,583,171,617,197.3C651.4,224,686,192,720,186.7C754.3,181,789,203,823,192C857.1,181,891,139,926,122.7C960,107,994,117,1029,106.7C1062.9,96,1097,64,1131,64C1165.7,64,1200,96,1234,128C1268.6,160,1303,192,1337,181.3C1371.4,171,1406,117,1423,90.7L1440,64L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
-               </path>
-          </svg>
      </section>
-     <!-- akhir -->
+     <!-- akhir portofolio -->
 
      <!-- contact me -->
-     <section id="Contactme">
-          <div class="container">
+     <div id="Contactme">
+          <div class="container text-light ">
                <div class="row text-center mb-3">
                     <div class="col">
-                         <div class="text">
-                              <h2>Contact Me</h2>
-                         </div>
+                         <h2>Contact Me</h2>
+                         <hr>
                     </div>
                </div>
+
                <div class="row justify-content-center">
                     <div class="col-md-8">
                          <div class="alert alert-success alert-dismissible fade show d-none my-allert" role="alert">
@@ -218,62 +237,36 @@
                     </div>
                </div>
           </div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-               <path fill="#0d6efd" fill-opacity="1"
-                    d="M0,224L17.1,229.3C34.3,235,69,245,103,224C137.1,203,171,149,206,133.3C240,117,274,139,309,160C342.9,181,377,203,411,186.7C445.7,171,480,117,514,80C548.6,43,583,21,617,21.3C651.4,21,686,43,720,53.3C754.3,64,789,64,823,85.3C857.1,107,891,149,926,170.7C960,192,994,192,1029,181.3C1062.9,171,1097,149,1131,165.3C1165.7,181,1200,235,1234,234.7C1268.6,235,1303,181,1337,165.3C1371.4,149,1406,171,1423,181.3L1440,192L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
-               </path>
-          </svg>
+     </div>
      </section>
-     <!-- akhir -->
+     <!-- akhir contact me -->
 
      <!-- footer -->
-     <footer class="footer text-center text-light">
-          <P>Created By Farhan Ade Atalarik</P>
+     <footer class="py-5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-12 text-center">
+                         <img src="img/LOGO TERBARU REV-min.PNG" alt="" width="60" height="60" data-aos="flip-left">
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-12 text-center">
+                         <p class="text-light">Created By Farhan Ade Atalarik</p>
+                    </div>
+               </div>
+          </div>
      </footer>
-     <!-- footer -->
+     <!-- akhir footer -->
 
+     <!-- script saya -->
+     <script src="js/script.js"></script>
 
+     <!-- Optional JavaScript; choose one of the two! -->
 
      <!-- Option 1: Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
      </script>
-
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-     <script>
-          AOS.init();
-     </script>
-
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"> </script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
-     <script>
-          gsap.registerPlugin(TextPlugin);
-          gsap.to('.lead', {
-               duration: 1.2,
-               delay: 1.4,
-               text: 'Mahasiswa | Programer | Videografer'
-          })
-          gsap.from('.jumbotron img', {
-               duration: 1,
-               y: -100,
-               rotateY: 360,
-               opacity: 0,
-          });
-          gsap.from('.navbar', {
-               duration: 1,
-               y: '-100%',
-               opacity: 0,
-               ease: 'bounce',
-          });
-          gsap.from('.display-4', {
-               duration: 1,
-               x: '-50%',
-               opacity: 0,
-               delay: 0.5,
-               ease: 'back',
-          });
-     </script>
-
 
 
      <script>
@@ -306,8 +299,6 @@
                     })
           })
      </script>
-
-
 </body>
 
 </html>

@@ -1,0 +1,86 @@
+:root {
+     --warnautama: #252734;
+     --warnasampingan: #333646;
+     --warnaaksen: #ff9100;
+}
+
+body {
+     background-color: var(--warnautama);
+     min-height: 900px;
+     font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+     color: #fff;
+     font-size: 2.5rem;
+}
+
+/* navbar */
+.nav-link.active {
+     color: var(--warnaaksen) !important;
+     font-weight: 600;
+}
+
+.nav-dark {
+     background-color: var(--warnasampingan) !important;
+     z-index: 10;
+     transition: .8s;
+}
+
+/* akhir */
+
+/* saya */
+.warnaaksen {
+     color: var(--warnaaksen);
+}
+
+.cv {
+     color: #fff;
+     cursor: pointer;
+     font-size: 1.1rem;
+}
+
+.social-media {
+     word-spacing: 15px;
+     margin-bottom: 20px;
+}
+
+#saya {
+     color: #fff;
+     min-height: 100vh;
+     padding-top: 150px;
+}
+
+/* akhir saya */
+
+/* about */
+hr {
+     width: 35%;
+     height: 5px;
+     color: var(--warnaaksen);
+     margin: auto;
+}
+
+#about {
+     min-height: 300px;
+     width: 100%;
+     background-color: var(--warnasampingan);
+     color: #fff;
+     padding-top: 80px;
+     padding-bottom: 80px;
+     margin-bottom: 80px;
+}
+
+/* akhir about */
+
+/* skill */
+#skill {
+     min-height: 600px;
+     width: 100%;
+     color: #fff;
+}
+
+#skill img {
+     width: 12%;
+     margin: 10px;
+}
