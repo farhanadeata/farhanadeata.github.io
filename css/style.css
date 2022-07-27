@@ -62,7 +62,7 @@ hr {
 }
 
 #about {
-     min-height: 300px;
+     min-height: 10px;
      width: 100%;
      background-color: var(--warnasampingan);
      color: #fff;
