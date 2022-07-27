@@ -6,7 +6,7 @@
 
 body {
      background-color: var(--warnautama);
-     min-height: 900px;
+     min-height: 100px;
      font-family: 'ubuntu', sans-serif;
 }
 
