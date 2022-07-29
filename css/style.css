@@ -84,3 +84,19 @@ hr {
      width: 12%;
      margin: 10px;
 }
+
+/* galeri */
+
+#gallery img {
+     max-width: 100%;
+     height: auto;
+}
+
+#geleri container {
+     max-width: 1100px;
+     width: 100%;
+     padding: 40px 35px;
+     margin: 0 auto;
+     box-sizing: border-box;
+
+}
