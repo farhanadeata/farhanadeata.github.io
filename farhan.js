@@ -16568,7 +16568,7 @@ p.nominalBounds = new cjs.Rectangle(-43.3,-229.8,90.3,459.70000000000005);
 
 
 // stage content:
-(lib.RECOVER_asw = function(mode,startPosition,loop,reversed) {
+(lib.klmpok3 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
