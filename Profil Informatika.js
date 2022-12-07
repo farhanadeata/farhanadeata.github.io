@@ -9866,7 +9866,7 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [148,157,158,159,160,161,162,163,164,176,187,188,189,190,191,200];
 	// timeline functions:
 	this.frame_148 = function() {
-		//HOME
+		//HOME,navbar
 		
 		this.stop();
 		
@@ -17848,11 +17848,11 @@ if (reversed == null) { reversed = false; }
 	this.shape_1872.setTransform(245.85,271.2);
 
 	this.shape_1873 = new cjs.Shape();
-	this.shape_1873.graphics.f().s("#20232A").ss(2,1,1).p("AqOunIAAEvMA9XAAAAqOv4IAABRMA9XAAAEgzIgOnMAo6AAAEgzIgJ4MAo6AAAIAAZx");
+	this.shape_1873.graphics.f().s("#20232A").ss(2,1,1).p("AqOv4IAABRIAAEvIAAZxEgzIgJ4MAo6AAAMA9XAAAEgzIgOnMAo6AAAMA9XAAA");
 	this.shape_1873.setTransform(552.025,456.225);
 
 	this.shape_1874 = new cjs.Shape();
-	this.shape_1874.graphics.f("#F9D624").s().p("Eg0HAZtQiwAAAAiqMAAAguFQAAiqCwAAMBoPAAAQCwAAAACqMAAAAuFQAACqiwAAgAqVV3IAA5xMgo7AAAMAo7AAAgAqVj6MA9XAAAMg9XAAAIAAkvMA9XAAAMg9XAAAIAAhRIAABRMgo7AAAMAo7AAAIAAEvgAqVopg");
+	this.shape_1874.graphics.f("#F9D624").s().p("Eg0HAZtQiwAAAAiqMAAAguFQAAiqCwAAMBoPAAAQCwAAAACqMAAAAuFQAACqiwAAgAqVV3IAA5xMA9XAAAMg9XAAAIAAkvMA9XAAAMg9XAAAIAAhRIAABRMgo7AAAMAo7AAAIAAEvMgo7AAAMAo7AAAgAqVj6gAqVopg");
 	this.shape_1874.setTransform(552.775,418.05);
 
 	this.instance_21 = new lib.Tween26("synched",0);
@@ -18193,44 +18193,44 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Pngtreehighsoundvectoricon_3791377.png", id:"Pngtreehighsoundvectoricon_3791377"},
-		{src:"images/Bitmap1.png", id:"Bitmap1"},
-		{src:"images/Bitmap2.png", id:"Bitmap2"},
-		{src:"images/book.png", id:"book"},
-		{src:"images/bumurispngcopy.png", id:"bumurispngcopy"},
-		{src:"images/bukdespngcopy.png", id:"bukdespngcopy"},
-		{src:"images/bukjumpngcopy.png", id:"bukjumpngcopy"},
-		{src:"images/ee.png", id:"ee"},
-		{src:"images/ela.png", id:"ela"},
-		{src:"images/far.png", id:"far"},
-		{src:"images/firman.png", id:"firman"},
-		{src:"images/fr.png", id:"fr"},
-		{src:"images/fsfas.png", id:"fsfas"},
-		{src:"images/fur.png", id:"fur"},
-		{src:"images/gf.png", id:"gf"},
-		{src:"images/gglbukjum.png", id:"gglbukjum"},
-		{src:"images/gglbukmuris.png", id:"gglbukmuris"},
-		{src:"images/gglpakjoko.png", id:"gglpakjoko"},
-		{src:"images/gglpaknang.png", id:"gglpaknang"},
-		{src:"images/gglpakpuji.png", id:"gglpakpuji"},
-		{src:"images/givta.png", id:"givta"},
-		{src:"images/gufur.png", id:"gufur"},
-		{src:"images/jabbukdess.png", id:"jabbukdess"},
-		{src:"images/jabpakrahmann.png", id:"jabpakrahmann"},
-		{src:"images/jhhh.png", id:"jhhh"},
-		{src:"images/KAPRODI_3_removebgpreview.png", id:"KAPRODI_3_removebgpreview"},
-		{src:"images/kurikulum.png", id:"kurikulum"},
-		{src:"images/pakjokopngcopy.png", id:"pakjokopngcopy"},
-		{src:"images/PAKNANGpngcopy.png", id:"PAKNANGpngcopy"},
-		{src:"images/pakpujipngcopy2.png", id:"pakpujipngcopy2"},
-		{src:"images/PAKRAGMANpngcopy2.png", id:"PAKRAGMANpngcopy2"},
-		{src:"images/qwruqwag.png", id:"qwruqwag"},
-		{src:"images/ubr.png", id:"ubr"},
-		{src:"images/Untitled1.png", id:"Untitled1"},
-		{src:"images/Untitled2.png", id:"Untitled2"},
-		{src:"images/Untitled3.png", id:"Untitled3"},
-		{src:"images/wyea.png", id:"wyea"},
-		{src:"sounds/musik.mp3", id:"musik"}
+		{src:"images/Pngtreehighsoundvectoricon_3791377.png?1665450154117", id:"Pngtreehighsoundvectoricon_3791377"},
+		{src:"images/Bitmap1.png?1665450154117", id:"Bitmap1"},
+		{src:"images/Bitmap2.png?1665450154117", id:"Bitmap2"},
+		{src:"images/book.png?1665450154117", id:"book"},
+		{src:"images/bumurispngcopy.png?1665450154117", id:"bumurispngcopy"},
+		{src:"images/bukdespngcopy.png?1665450154117", id:"bukdespngcopy"},
+		{src:"images/bukjumpngcopy.png?1665450154117", id:"bukjumpngcopy"},
+		{src:"images/ee.png?1665450154117", id:"ee"},
+		{src:"images/ela.png?1665450154117", id:"ela"},
+		{src:"images/far.png?1665450154117", id:"far"},
+		{src:"images/firman.png?1665450154117", id:"firman"},
+		{src:"images/fr.png?1665450154117", id:"fr"},
+		{src:"images/fsfas.png?1665450154117", id:"fsfas"},
+		{src:"images/fur.png?1665450154117", id:"fur"},
+		{src:"images/gf.png?1665450154117", id:"gf"},
+		{src:"images/gglbukjum.png?1665450154117", id:"gglbukjum"},
+		{src:"images/gglbukmuris.png?1665450154117", id:"gglbukmuris"},
+		{src:"images/gglpakjoko.png?1665450154117", id:"gglpakjoko"},
+		{src:"images/gglpaknang.png?1665450154117", id:"gglpaknang"},
+		{src:"images/gglpakpuji.png?1665450154117", id:"gglpakpuji"},
+		{src:"images/givta.png?1665450154117", id:"givta"},
+		{src:"images/gufur.png?1665450154117", id:"gufur"},
+		{src:"images/jabbukdess.png?1665450154117", id:"jabbukdess"},
+		{src:"images/jabpakrahmann.png?1665450154117", id:"jabpakrahmann"},
+		{src:"images/jhhh.png?1665450154117", id:"jhhh"},
+		{src:"images/KAPRODI_3_removebgpreview.png?1665450154117", id:"KAPRODI_3_removebgpreview"},
+		{src:"images/kurikulum.png?1665450154117", id:"kurikulum"},
+		{src:"images/pakjokopngcopy.png?1665450154117", id:"pakjokopngcopy"},
+		{src:"images/PAKNANGpngcopy.png?1665450154117", id:"PAKNANGpngcopy"},
+		{src:"images/pakpujipngcopy2.png?1665450154117", id:"pakpujipngcopy2"},
+		{src:"images/PAKRAGMANpngcopy2.png?1665450154117", id:"PAKRAGMANpngcopy2"},
+		{src:"images/qwruqwag.png?1665450154117", id:"qwruqwag"},
+		{src:"images/ubr.png?1665450154117", id:"ubr"},
+		{src:"images/Untitled1.png?1665450154117", id:"Untitled1"},
+		{src:"images/Untitled2.png?1665450154117", id:"Untitled2"},
+		{src:"images/Untitled3.png?1665450154117", id:"Untitled3"},
+		{src:"images/wyea.png?1665450154117", id:"wyea"},
+		{src:"sounds/musik.mp3?1665450154117", id:"musik"}
 	],
 	preloads: []
 };
