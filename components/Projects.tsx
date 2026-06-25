@@ -5,7 +5,7 @@ import { FiExternalLink, FiGithub, FiFolder, FiArrowRight } from "react-icons/fi
 import Link from "next/link";
 
 // Tempatkan semua proyek Anda di sini
-import { allProjects } from "./projects"; // Sesuaikan path-nya
+import { allProjects } from "./projectData"; // Sesuaikan path-nya
 
 export default function Projects() {
   const featuredProjects = allProjects.slice(0, 2); // Hanya ambil 2

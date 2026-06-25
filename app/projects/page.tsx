@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { FiArrowLeft, FiExternalLink, FiGithub, FiFolder } from "react-icons/fi";
 // Pastikan path import ini sesuai dengan lokasi file data Anda
-import { allProjects } from "../../components/projects"; 
+import { allProjects } from "../../components/projectData"; 
 
 export default function AllProjectsPage() {
   return (
