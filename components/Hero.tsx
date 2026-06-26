@@ -17,10 +17,10 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 pt-32 overflow-hidden">
       
-      {/* Background Glow - Tetap ada untuk kesan premium */}
+      
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/5 rounded-full blur-[120px] -z-10" />
 
-      {/* Profile Image */}
+      
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -42,14 +42,14 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Teks Hero */}
+      
       <motion.div
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.2, duration: 0.8 }}
         className="text-center md:text-left"
       >
-        {/* Nama 1 Baris dengan font yang proporsional */}
+        
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tight mb-2 whitespace-nowrap">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
             FARHAN ADE ATALARIK
@@ -65,8 +65,8 @@ export default function Hero() {
             sequence={[
               "Web Developer", 2000, 
               "IoT Specialist", 2000, 
-              "IT Support & Network", 2000, 
-              "System Administrator", 2000
+              "IT Support & Network", 2000 
+              
             ]}
             wrapper="span"
             className="text-lg md:text-2xl font-bold text-cyan-400"
@@ -74,7 +74,7 @@ export default function Hero() {
           />
         </div>
 
-        {/* Buttons */}
+        
         <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
           <Link 
             href="#projects" 
@@ -90,7 +90,7 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Social Links */}
+        
         <motion.div 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

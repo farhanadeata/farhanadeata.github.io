@@ -20,7 +20,7 @@ export default function AllProjectsPage() {
   className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-all duration-300 group"
 >
   <motion.div
-    whileHover={{ x: -5 }} // Ikon bergerak ke kiri saat di-hover
+    whileHover={{ x: -5 }} 
     className="flex items-center"
   >
     <FiArrowLeft size={20} />

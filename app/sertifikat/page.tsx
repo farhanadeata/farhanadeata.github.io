@@ -7,7 +7,7 @@ import { FiX, FiMaximize2 } from "react-icons/fi";
 import Link from "next/link";
 import { FiArrowLeft } from "react-icons/fi";
 
-// 1. DATA PUSAT: Cukup tambah objek di sini
+
 const certificates = [
   {
     id: 1,
@@ -17,9 +17,9 @@ const certificates = [
   },
   {
     id: 2,
-    title: "Fundamental Cybersecurity",
-    desc: "Mempelajari konsep dasar keamanan siber, termasuk ancaman digital, manajemen risiko, keamanan jaringan, perlindungan data, dan praktik terbaik dalam menjaga keamanan sistem informasi.",
-    image: "/fundamental.png",
+    title: "Program Pemagangan Nasional Kemnaker",
+    desc: "Mengikuti program pemagangan nasional yang diselenggarakan oleh Kementerian Ketenagakerjaan Republik Indonesia untuk meningkatkan kompetensi, pengalaman kerja, dan kesiapan profesional di dunia industri.",
+    image: "/magang.png",
   },
   {
     id: 3,
@@ -29,9 +29,9 @@ const certificates = [
   },
   {
     id: 4,
-    title: "Program Pemagangan Nasional Kemnaker",
-    desc: "Mengikuti program pemagangan nasional yang diselenggarakan oleh Kementerian Ketenagakerjaan Republik Indonesia untuk meningkatkan kompetensi, pengalaman kerja, dan kesiapan profesional di dunia industri.",
-    image: "/magang.png",
+    title: "Fundamental Cybersecurity",
+    desc: "Mempelajari konsep dasar keamanan siber, termasuk ancaman digital, manajemen risiko, keamanan jaringan, perlindungan data, dan praktik terbaik dalam menjaga keamanan sistem informasi.",
+    image: "/fundamental.png",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ export default function Certificates() {
   className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-all duration-300 group"
 >
   <motion.div
-    whileHover={{ x: -5 }} // Ikon bergerak ke kiri saat di-hover
+    whileHover={{ x: -5 }} 
     className="flex items-center"
   >
     <FiArrowLeft size={20} />

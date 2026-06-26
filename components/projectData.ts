@@ -4,7 +4,7 @@ export const allProjects = [
     description:
       "Sistem Informasi Kunjungan Digital yang dikembangkan untuk Rutan Kelas IIB Baturaja guna mempermudah proses pendaftaran, pengelolaan data pengunjung, dan administrasi kunjungan secara digital.",
     tech: ["PHP", "Website", "Sistem Informasi"],
-    githubUrl: "https://github.com/farhanadeata",
+    githubUrl: "",
     demoUrl: "https://sikudi.my.id",
   },
   {

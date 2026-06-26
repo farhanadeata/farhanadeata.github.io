@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub, FiFolder, FiArrowRight } from "react-icons/fi";
 import Link from "next/link";
 
-// Tempatkan semua proyek Anda di sini
-import { allProjects } from "./projectData"; // Sesuaikan path-nya
+
+import { allProjects } from "./projectData"; 
 
 export default function Projects() {
-  const featuredProjects = allProjects.slice(0, 2); // Hanya ambil 2
+  const featuredProjects = allProjects.slice(0, 2); 
 
   return (
     <section id="projects" className="max-w-6xl mx-auto py-32 px-6">
@@ -60,7 +60,7 @@ export default function Projects() {
       ))}
     </div>
 
-    {/* Navigasi ke halaman semua proyek */}
+    
     <div className="text-center mt-16">
       <Link 
         href="/projects" 
@@ -73,5 +73,3 @@ export default function Projects() {
   </section>
   );
 }
-
- 

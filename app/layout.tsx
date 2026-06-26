@@ -18,7 +18,7 @@ export const metadata = {
     template: '%s | Farhan Ade Atalarik',
   },
   icons: {
-    icon: "/favicon.png", // Sesuaikan dengan nama file gambar Anda di folder public
+    icon: "/favicon.png", 
   },
   description: "",
 };
