@@ -3,27 +3,37 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FiArrowLeft, FiExternalLink, FiGithub, FiFolder } from "react-icons/fi";
-// Pastikan path import ini sesuai dengan lokasi file data Anda
+
 import { allProjects } from "../../components/projectData"; 
 
 export default function AllProjectsPage() {
   return (
     <main className="min-h-screen bg-black text-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        {/* Tombol Back dengan animasi */}
+        
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
         >
-          <Link 
-            href="/" 
-            className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 mb-12 transition-colors group"
-          >
-            <FiArrowLeft className="group-hover:-translate-x-1 transition-transform" /> Kembali ke Beranda
-          </Link>
+           <Link 
+  href="/" 
+  className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-all duration-300 group"
+>
+  <motion.div
+    whileHover={{ x: -5 }} // Ikon bergerak ke kiri saat di-hover
+    className="flex items-center"
+  >
+    <FiArrowLeft size={20} />
+  </motion.div>
+  
+  <span className="relative">
+    Kembali ke Beranda
+    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full" />
+  </span>
+</Link>
         </motion.div>
 
-        {/* Header dengan efek fade-in */}
+        
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -37,7 +47,7 @@ export default function AllProjectsPage() {
           </p>
         </motion.div>
 
-        {/* Grid Proyek dengan stagger effect */}
+        
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {allProjects.map((project, index) => (
             <motion.div
@@ -73,7 +83,7 @@ export default function AllProjectsPage() {
                 {project.description}
               </p>
 
-              {/* Tech Tags */}
+              
               <div className="flex flex-wrap gap-2 mt-auto">
                 {project.tech.map((tag) => (
                   <span 

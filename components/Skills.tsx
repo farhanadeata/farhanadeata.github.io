@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaLinux, FaDocker, FaGithub, FaWordpress, FaPhp, FaHtml5, FaCss3Alt, FaMicrosoft } from "react-icons/fa";
+import { FaDocker, FaWordpress, FaPhp, FaHtml5, FaCss3Alt, FaMicrosoft } from "react-icons/fa";
 import { SiFlutter, SiEspressif, SiNextcloud, SiDart, SiMysql, SiTailwindcss } from "react-icons/si";
 
 const skillCategories = [
@@ -20,11 +20,9 @@ const skillCategories = [
   {
     title: "System & Tools",
     items: [
-      { name: "Linux", icon: <FaLinux size={20} className="text-gray-300" /> },
       { name: "Docker", icon: <FaDocker size={20} className="text-blue-500" /> },
       { name: "MySQL", icon: <SiMysql size={20} className="text-orange-400" /> },
       { name: "Nextcloud", icon: <SiNextcloud size={20} className="text-blue-300" /> },
-      { name: "GitHub", icon: <FaGithub size={20} className="text-white" /> },
       { name: "ESP8266", icon: <SiEspressif size={20} className="text-white" /> },
       { name: "MS Office", icon: <FaMicrosoft size={20} className="text-red-500" /> },
     ],

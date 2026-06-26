@@ -32,17 +32,17 @@ export default function Experience() {
       </div>
 
       <div className="relative">
-        {/* Garis Tengah - z-0 ditaruh di belakang kartu */}
+       
         <div className="absolute left-[20px] md:left-1/2 top-0 bottom-0 w-px bg-white/10 z-0" />
 
         <div className="space-y-12">
           {experiences.map((item, index) => (
             <div key={index} className="relative flex items-start gap-6 md:gap-8 md:justify-between md:odd:flex-row-reverse group">
               
-              {/* Dot Indicator - z-10 agar selalu di atas garis */}
+             
               <div className="absolute left-[13px] md:left-[calc(50%-7px)] top-6 w-4 h-4 rounded-full bg-black border-4 border-cyan-500 shadow-[0_0_15px_rgba(6,182,212,0.6)] z-10" />
 
-              {/* Content Container - Z-20 agar teks tidak bisa tertutup garis */}
+             
               <div className="w-[calc(100%-45px)] md:w-[calc(50%-40px)] z-20">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -60,7 +60,7 @@ export default function Experience() {
                 </motion.div>
               </div>
               
-              {/* Spacer */}
+              
               <div className="hidden md:block w-[calc(50%-40px)]" />
             </div>
           ))}

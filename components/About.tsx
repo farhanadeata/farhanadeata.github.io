@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { FiDownload } from "react-icons/fi";
 
 const stats = [
-  { number: "05+", title: "Proyek" },
-  { number: "03+", title: "Kolaborasi" },
+  { number: "07+", title: "Proyek" },
+  { number: "01+", title: "Kolaborasi" },
   { number: "01", title: "Mentorship" },
 ];
 
@@ -14,7 +14,7 @@ export default function About() {
     <section id="about" className="py-24 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-start">
         
-        {/* Sisi Kiri: Teks yang Diimprovisasi */}
+      
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +40,7 @@ export default function About() {
           </motion.div>
         </motion.div>
 
-        {/* Sisi Kanan: Stat & Motto */}
+        
         <div className="space-y-6">
           <div className="grid grid-cols-3 gap-3">
             {stats.map((stat, index) => (
@@ -57,7 +57,7 @@ export default function About() {
             ))}
           </div>
 
-          {/* Motto Kecil */}
+         
           <motion.div 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <div className="w-full max-w-4xl flex items-center justify-between px-6 py-3 rounded-full bg-black/30 backdrop-blur-xl border border-white/10 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
         
-        {/* Logo */}
+      
         <a href="#" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <div className="relative w-8 h-8">
             <Image src="/logo.png" alt="Logo" fill className="object-contain" />
@@ -36,7 +36,7 @@ export default function Navbar() {
           </span>
         </a>
 
-        {/* Desktop Links */}
+       
         <div className="hidden md:flex gap-1">
           {navLinks.map((link) => (
             <a key={link.name} href={link.href} className="relative px-4 py-2 text-sm text-gray-300 hover:text-white transition-colors duration-300">
@@ -46,7 +46,7 @@ export default function Navbar() {
           ))}
         </div>
         
-        {/* Mobile Menu Toggle */}
+       
         <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
         </button>
@@ -60,7 +60,7 @@ export default function Navbar() {
     </Link>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      
       <AnimatePresence>
         {isOpen && (
           <motion.div

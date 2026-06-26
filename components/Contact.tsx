@@ -13,7 +13,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="relative bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 rounded-[3rem] p-12 md:p-20 text-center overflow-hidden"
         >
-          {/* Decorative Background Elements */}
+          
           <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[128px] -translate-y-1/2 translate-x-1/2" />
 
           <motion.div
@@ -55,9 +55,7 @@ export default function Contact() {
             
           </div>
 
-          <div className="pt-8 border-t border-white/5 text-sm text-gray-600 font-mono">
-            <p>© 2026 Farhan Ade Atalarik. Crafted with passion.</p>
-          </div>
+          
         </motion.div>
       </div>
     </section>
